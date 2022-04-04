@@ -1,18 +1,18 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - prints number of arguments entered
+ * main - print number of arguments entered
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: arguments entered
  * Description: print number of arguments
- * Return: 0
- */
+ * Return: return zero
+ **/
 
 int main(int argc, char *argv[])
 {
-    printf("%s\n", argc - 1);
-    argc =  argv;
-    
-    return (0);
+	printf("%d\n", argc - 1);
+	argv = argv;
+
+	return (0);
 }

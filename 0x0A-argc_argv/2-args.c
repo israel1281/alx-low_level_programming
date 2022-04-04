@@ -1,20 +1,21 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - prints number of arguments entered
+ * main - print all arguemnts
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: arguments entered
  * Description: print all arguments including file name
- * Return: 0
- */
+ * Return: zero
+ **/
 
 int main(int argc, char *argv[])
 {
-    int i;
+	int i;
 
-    for (i = 0; i < argc; i++)
-        printf("%s\n", argv[i]);
-    argc = argc;
-    return (0);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
 }
