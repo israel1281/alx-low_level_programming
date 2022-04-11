@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\projects\\holbertonschool-low_level_programming"
+		}
+	],
+	"settings": {
+		"nuxt.isNuxtApp": false
+	}
+}
